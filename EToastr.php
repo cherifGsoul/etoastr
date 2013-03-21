@@ -1,6 +1,6 @@
 <?php
 /**
- * EToastr adds {@link http://codeseven.github.com/toastr/} as a form field widget.
+ * EToastr adds {@link http://codeseven.github.com/toastr/} for flash messages.
  * @author cherif bouchelaghem <cherif.bouchelaghem@gmail.com>
  * @license http://www.opensource.org/licenses/bsd-license.php
  * @version 0.1
