@@ -1,7 +1,11 @@
 <?php
 /**
- * toast-bottom-full-width
-**/
+ * EToastr adds {@link http://codeseven.github.com/toastr/} as a form field widget.
+ * @author cherif bouchelaghem <cherif.bouchelaghem@gmail.com>
+ * @license http://www.opensource.org/licenses/bsd-license.php
+ * @version 0.1
+ * @package ext.widgets.etoastr
+ */
 class EToastr extends CWidget
 {
 	public $options=array();
