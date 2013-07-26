@@ -35,9 +35,9 @@ class EToastr extends CWidget
 
 		if($this->message && !$this->flashMessagesOnly){
 			if(isset($this->title)){
-				$toastrScript .='toastr.info("' . $this->message . '", "'. $this->title .'")'; 			
+				$toastrScript .='toastr.info("' . CJavaScript::encode($this->message) . '", "'. $this->title .'")'; 			
 			}else {
-					$toastrScript .='toastr.info("' . $this->message . '")';
+					$toastrScript .='toastr.info("' . CJavaScript::encode($this->message) . '")';
 				}		
 				Yii::app()->clientScript->registerScript('toastr',$toastrScript);	
 		}else{
